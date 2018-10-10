@@ -9,12 +9,11 @@ class String
   end
 
   def question?
-    self.find_
-    index[-1] == "?"
+    self.self.end_with?("?")
   end
 
   def exclamation?
-    self.index[-1] == "?"
+    self.self.end_with?("!")
   end
 
   def count_sentences
